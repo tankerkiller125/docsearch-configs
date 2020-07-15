@@ -1,12 +1,11 @@
 {
-  "index_name": "gns3",
+  "index_name": "proaction",
   "start_urls": [
-    "https://docs.gns3.com/docs"
+    "https://proaction.io/docs/"
   ],
   "sitemap_urls": [
-    "https://docs.gns3.com/sitemap.xml"
+    "https://proaction.io/sitemap.xml"
   ],
-  "sitemap_alternate_links": true,
   "selectors": {
     "lvl0": {
       "selector": ".menu__link--sublist.menu__link--active",
@@ -21,9 +20,12 @@
     "lvl6": "article h6",
     "text": "article p, article li"
   },
+  "strip_chars": " .,;:#",
   "custom_settings": {
     "separatorsToIndex": "_",
     "attributesForFaceting": [
+      "language",
+      "version",
       "type"
     ],
     "attributesToRetrieve": [
@@ -35,9 +37,8 @@
       "type"
     ]
   },
-  "strip_chars": ".,;:#",
   "conversation_id": [
-    "266997549"
+    "1226506128"
   ],
-  "nb_hits": 2453
+  "nb_hits": 152
 }
